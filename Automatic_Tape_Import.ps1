@@ -1,22 +1,19 @@
 ##############################################
 ##                                          ##
-##      Script:  Tape_Import.ps1	        ##
-##      Version: 1.0					    ##
-##		Date:	 31.01.2024                 ##
+##      Script:  Tape_Import.ps1	    ##
+##      Version: 1.0			    ##
+##		Date:	 31.01.2024         ##
 ##                                          ##
 ##      Author: Chalid Mohamed Fathallah    ##
-##											##
+##					    ##
 ##                                          ##
 ##      Desc:   Script for importing +      ##
-##				unprotecting tapes and 	    ##
-##				moving them into the	    ##
-##              "free" pool  			    ##
+##		unprotecting tapes and 	    ##
+##		moving them into the	    ##
+##              "free" pool 		    ##
 ##                                          ##
 ##############################################
 
-### If running the script from a remote server ###
-# Connect to a Veeam backup server using User/Password authentication #
-#Connect-VBRServer [-Server <String>] [-Port <Int32>] -User <String> -Password <String> [-Timeout <Int32>]  [<CommonParameters>] #
 
 #Connect to a Veeam backup server as a current user.(if running as sheduled Task from another server via run-as)#
 #Connect-VBRServer [-Server <String>] [-Port <Int32>] [-Timeout <Int32>]  [<CommonParameters>]#
